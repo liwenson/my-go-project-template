@@ -1,0 +1,41 @@
+postgres:
+  host: '120.25.237.88'
+  port: '5432'
+  password: 'nlyadminlte'
+  username: 'nly'
+  database: 'nly_test_2'
+  sslmode: 'disable'
+  maxidleconns: 12
+  maxopenconns: 20
+
+mysql:
+  path: '172.16.105.130:3306'
+  password: 'ztyc1234'
+  username: 'root'
+  db-name: 'cmdb'
+  config: 'charset=utf8&parseTime=True&loc=Local'
+  maxidleconns: 12
+  maxopenconns: 20
+  log-mode: false
+
+zap:
+  level: 'info'
+  format: 'console'
+  prefix: '[NLY-GIN-ADMIN]'
+  director: 'log'
+  link-name: 'latest_log'
+  show-line: true
+  encode-level: 'LowercaseColorLevelEncoder'
+  stacktrace-key: 'stacktrace'
+  log-in-console: true
+
+system:
+  env: 'public'
+  addr: 8888
+  db-type: 'mysql'
+  oss-type: 'local'
+  use-multipoint: false
+
+jwt:
+  sign-key: 'nlyadminltevue'
+  token-expire-time: 3600
