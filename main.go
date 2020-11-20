@@ -22,7 +22,7 @@ func main() {
 	global.NLY_LOG = initialize.Zap()
 
 	// 初始化数据库
-	global.NLY_DB = initialize.InitPostgres()
+	global.NLY_DB = initialize.InitDB()
 	// 注册model
 	initialize.RegisterModel(global.NLY_DB)
 	db := global.NLY_DB.DB()
