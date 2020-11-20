@@ -1,10 +1,11 @@
 package initialize
 
 import (
+	"gorm.io/gorm"
 	"nav/global"
 	"nav/model"
-	"github.com/jinzhu/gorm"
 )
+	//"github.com/jinzhu/gorm"
 
 // 迁移数据库
 func RegisterModel(db *gorm.DB) {
@@ -15,19 +16,30 @@ func RegisterModel(db *gorm.DB) {
 }
 
 
-func InitDB() *gorm.DB {
-	if global.NLY_CONFIG.System.DbType == "mysql" {
-		// 调用mysql 初始化方法
-		return InitMysql()
-	}
-	if global.NLY_CONFIG.System.DbType == "postgres" {
-		// 调用 postgres 初始化方法<
-		return InitPostgres()
-	}
-	if global.NLY_CONFIG.System.DbType == "sqlite" {
-		// 调用 postgres 初始化方法<
-		return nil
-	}
+// Gorm 初始化数据库并产生数据库全局变量
+//func Gorm() *gorm.DB {
+//	switch global.NLY_CONFIG.System.DbType {
+//	case "mysql":
+//		return GormMysql()
+//	default:
+//		return GormMysql()
+//	}
+//}
 
-	return nil
-}
+//
+//func InitDB() *gorm.DB {
+//	if global.NLY_CONFIG.System.DbType == "mysql" {
+//		// 调用mysql 初始化方法
+//		return InitMysql()
+//	}
+//	if global.NLY_CONFIG.System.DbType == "postgres" {
+//		// 调用 postgres 初始化方法<
+//		return InitPostgres()
+//	}
+//	if global.NLY_CONFIG.System.DbType == "sqlite" {
+//		// 调用 sqlite 初始化方法<
+//		return nil
+//	}
+//
+//	return nil
+//}

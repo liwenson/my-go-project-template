@@ -1,8 +1,8 @@
 package global
 
 import (
-	"github.com/jinzhu/gorm"
 	"go.uber.org/zap"
+	"gorm.io/gorm"
 	"nav/config"
 )
 

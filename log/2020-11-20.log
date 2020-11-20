@@ -75,3 +75,107 @@
 [NLY-GIN-ADMIN] 2020/11/20 - 15:03:14.195	[34minfo[0m	/swagger/swagger-ui-bundle.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-bundle.js", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0.0069811}
 [NLY-GIN-ADMIN] 2020/11/20 - 15:03:14.440	[34minfo[0m	/swagger/doc.json	{"status": 200, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0}
 [NLY-GIN-ADMIN] 2020/11/20 - 15:03:14.631	[34minfo[0m	/swagger/favicon-32x32.png	{"status": 200, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0.108708}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.531	[34minfo[0m	开始初始化 Mysql 数据库
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.574	[34minfo[0m	mysql 连接成功: 	{"hostpath": "root:ztyc1234@tcp(172.16.105.130:3306)/cmdb?charset=utf8&parseTime=True&loc=Local"}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.575	[34minfo[0m	开始迁移数据库
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.720	[34minfo[0m	迁移表 User 成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.726	[34minfo[0m	迁移数据库成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.726	[34minfo[0m	开始初始化路由设置
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.727	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.733	[34minfo[0m	注册跨域中间件
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.734	[34minfo[0m	register swagger handler
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.734	[34minfo[0m	开始注册路由
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.735	[34minfo[0m	全部路由注册成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.735	[34minfo[0m	路由初始化成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:37.737	[34minfo[0m	server run success on 	{"address": ":8888"}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:47.134	[34minfo[0m	/swagger/index.html	{"status": 200, "method": "GET", "path": "/swagger/index.html", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0.0009946}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:47.281	[34minfo[0m	/swagger/swagger-ui.css	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui.css", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:47.289	[34minfo[0m	/swagger/swagger-ui-standalone-preset.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-standalone-preset.js", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0.001994}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:47.300	[34minfo[0m	/swagger/swagger-ui-bundle.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-bundle.js", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0.0109736}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:47.579	[34minfo[0m	/swagger/doc.json	{"status": 200, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:23:47.777	[34minfo[0m	/swagger/favicon-32x32.png	{"status": 200, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "172.16.10.240", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36", "errors": "", "cost": 0.1017266}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.161	[34minfo[0m	开始初始化 Mysql 数据库
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.216	[34minfo[0m	mysql 连接成功: 	{"hostpath": "root:ztyc1234@tcp(172.16.105.130:3306)/cmdb?charset=utf8&parseTime=True&loc=Local"}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.217	[34minfo[0m	开始迁移数据库
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.336	[34minfo[0m	迁移表 User 成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.336	[34minfo[0m	迁移数据库成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.336	[34minfo[0m	开始初始化路由设置
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.336	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.336	[34minfo[0m	注册跨域中间件
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.337	[34minfo[0m	register swagger handler
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.337	[34minfo[0m	开始注册路由
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.337	[34minfo[0m	全部路由注册成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.338	[34minfo[0m	路由初始化成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:33:21.339	[34minfo[0m	server run success on 	{"address": ":8888"}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.727	[34minfo[0m	register table success
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.747	[34minfo[0m	开始初始化路由设置
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.747	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.747	[34minfo[0m	注册跨域中间件
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.748	[34minfo[0m	register swagger handler
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.748	[34minfo[0m	开始注册路由
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.748	[34minfo[0m	全部路由注册成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.748	[34minfo[0m	路由初始化成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:15.750	[34minfo[0m	server run success on 	{"address": ":8888"}
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.133	[34minfo[0m	register table success
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.153	[34minfo[0m	开始初始化路由设置
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.153	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.153	[34minfo[0m	注册跨域中间件
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.154	[34minfo[0m	register swagger handler
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.154	[34minfo[0m	开始注册路由
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.154	[34minfo[0m	全部路由注册成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.155	[34minfo[0m	路由初始化成功
+[NLY-GIN-ADMIN] 2020/11/20 - 15:52:51.156	[34minfo[0m	server run success on 	{"address": ":8888"}
+  2020/11/20 - 16:17:58.913	[34minfo[0m	register table success
+  2020/11/20 - 16:17:58.929	[34minfo[0m	开始初始化路由设置
+  2020/11/20 - 16:17:58.929	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+  2020/11/20 - 16:17:58.929	[34minfo[0m	注册跨域中间件
+  2020/11/20 - 16:17:58.930	[34minfo[0m	register swagger handler
+  2020/11/20 - 16:17:58.930	[34minfo[0m	开始注册路由
+  2020/11/20 - 16:17:58.930	[34minfo[0m	全部路由注册成功
+  2020/11/20 - 16:17:58.930	[34minfo[0m	路由初始化成功
+  2020/11/20 - 16:17:58.931	[34minfo[0m	server run success on 	{"address": ":8888"}
+  2020/11/20 - 16:19:39.580	[31merror[0m	postgres启动异常	{"err": "failed to connect to `host=120.25.237.88 user=nly database=120.25.237.88`: server error (FATAL: database \"120.25.237.88\" does not exist (SQLSTATE 3D000))"}
+  2020/11/20 - 16:20:28.907	[34minfo[0m	register table success
+  2020/11/20 - 16:20:28.936	[34minfo[0m	开始初始化路由设置
+  2020/11/20 - 16:20:28.936	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+  2020/11/20 - 16:20:28.936	[34minfo[0m	注册跨域中间件
+  2020/11/20 - 16:20:28.937	[34minfo[0m	register swagger handler
+  2020/11/20 - 16:20:28.937	[34minfo[0m	开始注册路由
+  2020/11/20 - 16:20:28.937	[34minfo[0m	全部路由注册成功
+  2020/11/20 - 16:20:28.937	[34minfo[0m	路由初始化成功
+  2020/11/20 - 16:20:28.939	[34minfo[0m	server run success on 	{"address": ":8888"}
+  2020/11/20 - 16:24:10.760	[34minfo[0m	连接postgres数据库
+  2020/11/20 - 16:24:11.003	[34minfo[0m	注册数据表成功 
+  2020/11/20 - 16:24:11.004	[34minfo[0m	register table success
+  2020/11/20 - 16:24:11.005	[34minfo[0m	开始初始化路由设置
+  2020/11/20 - 16:24:11.006	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+  2020/11/20 - 16:24:11.007	[34minfo[0m	注册跨域中间件
+  2020/11/20 - 16:24:11.008	[34minfo[0m	register swagger handler
+  2020/11/20 - 16:24:11.008	[34minfo[0m	开始注册路由
+  2020/11/20 - 16:24:11.009	[34minfo[0m	全部路由注册成功
+  2020/11/20 - 16:24:11.009	[34minfo[0m	路由初始化成功
+  2020/11/20 - 16:24:11.011	[34minfo[0m	server run success on 	{"address": ":8888"}
+  2020/11/20 - 16:49:03.225	[34minfo[0m	连接sqlite 数据库
+  2020/11/20 - 16:49:03.258	[34minfo[0m	注册数据表成功 
+  2020/11/20 - 16:49:03.259	[34minfo[0m	register table success
+  2020/11/20 - 16:49:03.259	[34minfo[0m	开始初始化路由设置
+  2020/11/20 - 16:49:03.260	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+  2020/11/20 - 16:49:03.261	[34minfo[0m	注册跨域中间件
+  2020/11/20 - 16:49:03.261	[34minfo[0m	register swagger handler
+  2020/11/20 - 16:49:03.262	[34minfo[0m	开始注册路由
+  2020/11/20 - 16:49:03.262	[34minfo[0m	全部路由注册成功
+  2020/11/20 - 16:49:03.262	[34minfo[0m	路由初始化成功
+  2020/11/20 - 16:49:03.269	[34minfo[0m	server run success on 	{"address": ":8888"}
+  2020/11/20 - 16:50:11.512	[34minfo[0m	连接 sqlite 数据库
+  2020/11/20 - 16:50:11.534	[31merror[0m	Sqlite启动异常	{"err": "unable to open database file: The system cannot find the path specified."}
+  2020/11/20 - 16:50:35.037	[34minfo[0m	连接 sqlite 数据库
+  2020/11/20 - 16:50:35.064	[34minfo[0m	注册数据表成功 
+  2020/11/20 - 16:50:35.064	[34minfo[0m	register table success
+  2020/11/20 - 16:50:35.064	[34minfo[0m	开始初始化路由设置
+  2020/11/20 - 16:50:35.065	[34minfo[0m	使用 Zap 自定义 Logger 和 Recovery 
+  2020/11/20 - 16:50:35.065	[34minfo[0m	注册跨域中间件
+  2020/11/20 - 16:50:35.065	[34minfo[0m	register swagger handler
+  2020/11/20 - 16:50:35.066	[34minfo[0m	开始注册路由
+  2020/11/20 - 16:50:35.066	[34minfo[0m	全部路由注册成功
+  2020/11/20 - 16:50:35.066	[34minfo[0m	路由初始化成功
+  2020/11/20 - 16:50:35.067	[34minfo[0m	server run success on 	{"address": ":8888"}

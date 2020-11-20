@@ -23,3 +23,9 @@ type MysqlConf struct {
 	MaxOpenConns int    `mapstructure:"max-open-conns" json:"maxOpenConns" yaml:"max-open-conns"`
 	LogMode      bool   `mapstructure:"log-mode" json:"logMode" yaml:"log-mode"`
 }
+
+type SqliteConf struct {
+	Path         string `mapstructure:"path" json:"path" yaml:"path"`
+	MaxIdleConns int    `mapstructure:"max-idle-conns" json:"maxIdleConns" yaml:"max-idle-conns"`
+	MaxOpenConns int    `mapstructure:"max-open-conns" json:"maxOpenConns" yaml:"max-open-conns"`
+}

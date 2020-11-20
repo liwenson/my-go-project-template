@@ -3,7 +3,7 @@ postgres:
   port: '5432'
   password: 'nlyadminlte'
   username: 'nly'
-  database: 'nly_test_2'
+  database: 'nly_test_1'
   sslmode: 'disable'
   maxidleconns: 12
   maxopenconns: 20
@@ -18,10 +18,15 @@ mysql:
   maxopenconns: 20
   log-mode: false
 
+sqlite:
+  path: 'db/sqlite.db'
+  maxidleconns: 12
+  maxopenconns: 20
+
 zap:
   level: 'info'
   format: 'console'
-  prefix: '[NLY-GIN-ADMIN]'
+  prefix: ' '
   director: 'log'
   link-name: 'latest_log'
   show-line: true
@@ -32,7 +37,9 @@ zap:
 system:
   env: 'public'
   addr: 8888
-  db-type: 'mysql'
+#  db-type: 'mysql'
+#  db-type: 'postgres'
+  db-type: 'sqlite'
   oss-type: 'local'
   use-multipoint: false
 

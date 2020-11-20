@@ -4,7 +4,8 @@ package config
 type Server struct {
 	Zap      ZapConf      `yaml:"zap"`
 	Postgres PostgresConf `yaml:"postgres"`
-	Mysql MysqlConf `yaml:"mysql"`
+	Mysql    MysqlConf    `yaml:"mysql"`
+	Sqlite   SqliteConf   `yaml:"sqlite"`
 	System   SystemConf   `yaml:"system"`
 	Jwt      JwtConf      `yaml:"jwt"`
 }
